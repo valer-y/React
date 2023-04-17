@@ -28,20 +28,20 @@ function App() {
         <h2>Let's get started!</h2>
         <ExpenseItem title={expences[0].title}
                      amount={expences[0].amount}
-                     date={expences[0].date}>
-        </ExpenseItem>
+                     date={expences[0].date}
+        />
         <ExpenseItem title={expences[1].title}
                      amount={expences[1].amount}
-                     date={expences[1].date}>
-        </ExpenseItem>
+                     date={expences[1].date}
+        />
         <ExpenseItem title={expences[2].title}
                      amount={expences[2].amount}
                      date={expences[2].date}>
         </ExpenseItem>
         <ExpenseItem title={expences[3].title}
                      amount={expences[3].amount}
-                     date={expences[3].date}>
-        </ExpenseItem>
+                     date={expences[3].date}
+        />
     </div>);
 }
 
