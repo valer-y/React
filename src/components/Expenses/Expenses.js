@@ -18,8 +18,8 @@ const Expenses = (props) => {
             />
             <ExpenseItem title={props.item[2].title}
                          amount={props.item[2].amount}
-                         date={props.item[2].date}>
-            </ExpenseItem>
+                         date={props.item[2].date} 
+            />
             <ExpenseItem title={props.item[3].title}
                          amount={props.item[3].amount}
                          date={props.item[3].date}
